@@ -8,7 +8,7 @@
 
 **Step 3.** build, you will try to solve some dependencies and download aruco somewhere, ...
 ```
-( ( [ -d ./dist ] && rm -rf ./dist ) || true ) && \
+rm -rf ./dist
 mkdir ./dist && \
 cd ./dist && \
 ARUCO=/home/josejuan/Projects/track cmake .. && \
