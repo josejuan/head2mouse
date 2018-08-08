@@ -23,4 +23,10 @@ cd ..
 
 --------
 
+Now, you can control your cursor pointer using your ~~mind~~ head.
+
+For testing purposes I compared drawing using the mouse and the head:
+
+![aruco](https://github.com/josejuan/head2mouse/blob/master/img/test_mouse.png)
+![aruco](https://github.com/josejuan/head2mouse/blob/master/img/test_head.png)
 
