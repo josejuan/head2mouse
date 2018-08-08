@@ -1,4 +1,4 @@
-[[https://github.com/josejuan/head2mouse/blob/master/img/aruco.png|alt=aruco]]
+![aruco](https://github.com/josejuan/head2mouse/blob/master/img/aruco.png)
 
 ```
 ( ( [ -d ./dist ] && rm -rf ./dist ) || true ) && \
