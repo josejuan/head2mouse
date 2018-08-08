@@ -41,7 +41,11 @@ Not so bad, I'm using the mouse for twenty years and my head for twenty minutes.
 
 ## About implementation
 
-Using the aruco library is easy track the marker point then
+Using the aruco library is easy track the marker point and take four points for the four screen corners to get from camera the `frustum`:
 
-![aruco](https://github.com/josejuan/head2mouse/blob/master/img/test_head.png)
+![aruco](https://github.com/josejuan/head2mouse/blob/master/img/frustum.png)
+
+Using a simple `frustum` projection we can estimate the cursor position.
+
+The head could produce tremor (especially if you use a wire to hang the marker) to reduce it I use ![exponential smoothing](https://en.wikipedia.org/wiki/Exponential_smoothing).
 
