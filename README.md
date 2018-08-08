@@ -1,7 +1,6 @@
 # head 2 mouse
 
-Print
-
+Print one marker from this ![marker template](https://github.com/josejuan/head2mouse/blob/master/aruco_)
 ![aruco](https://github.com/josejuan/head2mouse/blob/master/img/aruco.png)
 
 ```
