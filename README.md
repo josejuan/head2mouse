@@ -43,7 +43,7 @@ Not so bad, I'm using the mouse for twenty years and my head for twenty minutes.
 
 Using the aruco library is easy track the marker point and take four points for the four screen corners to get from camera the `frustum`:
 
-![aruco](https://github.com/josejuan/head2mouse/blob/master/img/frustum.png)
+![aruco](https://github.com/josejuan/head2mouse/blob/master/img/frustumbox.png)
 
 Using a simple `frustum` projection we can estimate the cursor position.
 
