@@ -21,12 +21,27 @@ cd ..
 ./dist/head2mouse 0.4 1920 1080 $((1920 / 2)) $((1080 / 2)) 0
 ```
 
---------
+to calibrate:
+1. look to the upper left screen corner and press enter.
+1. look to the upper right screen corner and press enter.
+1. look to the bottom left screen corner and press enter.
+1. look to the bottom right screen corner and press enter.
+1. press `m` to activate/deactivate cursor pointer control.
+
+## Results
 
 Now, you can control your cursor pointer using your ~~mind~~ head.
 
 For testing purposes I compared drawing using the mouse and the head:
 
 ![aruco](https://github.com/josejuan/head2mouse/blob/master/img/test_mouse.png)
+![aruco](https://github.com/josejuan/head2mouse/blob/master/img/test_head.png)
+
+Not so bad, I'm using the mouse for twenty years and my head for twenty minutes.
+
+## About implementation
+
+Using the aruco library is easy track the marker point then
+
 ![aruco](https://github.com/josejuan/head2mouse/blob/master/img/test_head.png)
 
